@@ -37,7 +37,7 @@ export default function ResultsColumns({ originalWord, syllables, onPickWord }: 
         <div className="columns-wrap flex items-start">
           {syllables.map((s, i) => (
             <div key={i} className="col-block">
-              <div className="col-header">
+              <div className="col-header flex items-center gap-2">
                 <div className="col-syl">{s.syllable}</div>
                 <div className="col-count">{s.words.length} كلمة</div>
               </div>
