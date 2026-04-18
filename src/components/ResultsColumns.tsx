@@ -34,7 +34,7 @@ export default function ResultsColumns({ originalWord, syllables, onPickWord }: 
         </div>
 
         {/* Columns */}
-        <div className="columns-wrap">
+        <div className="columns-wrap flex items-start">
           {syllables.map((s, i) => (
             <div key={i} className="col-block">
               <div className="col-header">
